@@ -21,7 +21,6 @@ class QueueTest {
 	private static final String SOME_ITEM = "some-content";
 	private Queue<String> q;
 
-
 	@Test
 	@Disabled
 	@DisplayName("is instantiated with new Queue()")
