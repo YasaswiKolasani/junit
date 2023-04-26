@@ -1,4 +1,4 @@
-# Junit Assignment
+# Junit
 ## Project Description
 
 The Repository contains a maven project with queue extended from [Princeton's Intro to programming](https://introcs.cs.princeton.edu/java/43stack/) sample.
@@ -12,17 +12,14 @@ in 100% code coverage for this class.
 ![Instructions Coverage](.github/badges/jacoco.svg "Instructions Coverage Jacoco")
 ![Branch Coverage](.github/badges/branches.svg "Branch Coverage Jacoco")
 
-## Requirements for assignment
+## Requirements
 
 * Have 100% instruction & branch coverage for both constructors, enqueue, dequeue, peek, length, isEmpty, removeAll for Queue Class.
 
 * Order of test execution cannot be manually set. Tests can be run indepedenly of each other.
 * Annotations of JUnit are to be used.
 * You should have atleast 1 failing test which reveals the bug in the enqueue method disclosed earlier.
-## Instructions for submission
 
-* This repo should already exist as a base code in your particular Github Classroom repositories, push your changes to your respective repositories.
-* Submit a compressed file of the entire project which contain the reports already generated.
 ## Instructions to run
 The project is tested on [adoptium JDK-17 LTS](https://adoptium.net) but any JDK-17 flavour should work just fine.
 This assignment assumes you have knowledge of Java Classes and have a working installation of JDK. P.s. Java-8 might work as well, but is not tested!
@@ -43,7 +40,7 @@ or just
 ### Automatic Coverage test: 
 This repo is configured to automatically generate a new commit after you push code online!
 This commit will generate badges reflecting the current test coverage of code.
-You can just push code to github then wait for the github action to finish
+You can just push code to your github repo and then wait for the github action to finish
 which should update the badges automatically! 
 
 *Please do `git pull` after the bot has updated your repo with badges*
